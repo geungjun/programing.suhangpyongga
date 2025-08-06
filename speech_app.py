@@ -1,8 +1,7 @@
 import streamlit as st
 import speech_recognition as sr
-from googletrans import Translator
 import tempfile
-import os
+
 
 # 타이틀
 st.title("🎙️ WAV 음성 파일 텍스트 변환기")
