@@ -1,10 +1,4 @@
-programing.suhangpyongga/
-speech_app.py
-requirements.txt      
-README.md
-
-
-
+import streamlit as st
 import speech_recognition as sr
 
 def get_language():
