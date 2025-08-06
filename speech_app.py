@@ -1,7 +1,7 @@
 programing.suhangpyongga/
-├── speech_app.py
-├── requirements.txt       
-└── README.md
+speech_app.py
+requirements.txt      
+README.md
 
 
 
