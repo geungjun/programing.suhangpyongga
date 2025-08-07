@@ -5,11 +5,11 @@ import tempfile
 st.title("🎤 음성 파일 텍스트 변환기")
 st.write("WAV 음성 파일을 업로드하면 텍스트로 변환해드려요.")
 
-# ✅ 언어 선택 드롭다운
+# 언어 선택
 language_option = st.selectbox("음성의 언어를 선택하세요", ["한국어", "영어"])
 language_code = "ko-KR" if language_option == "한국어" else "en-US"
 
-# ✅ 파일 업로더 (WAV만 받음)
+# 파일 올리기 (WAV만 받음)
 uploaded_file = st.file_uploader("🎧 음성 파일을 업로드하세요 (WAV만 지원)", type=["wav"])
 
 if uploaded_file is not None:
